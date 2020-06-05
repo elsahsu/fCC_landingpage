@@ -1,0 +1,24 @@
+body {
+  background-color: gray;
+}
+#header {
+  color: rgb(227,120,94);
+  font-family: Georgia;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+#header-img {
+  display: block;
+  width: 5%;
+  max-width: 512px;
+  margin: auto;
+}
+#nav-bar {
+  text-align: left;
+  color: rgb(16,24,32);
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: normal;
+  overflow: auto;
+}
