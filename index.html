@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8 /">
-  <link rel="stylesheet" href=index.css>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-<img id="header-img" src="https://image.flaticon.com/icons/png/512/50/50620.png">
+<img id="header-img" src="https://image.flaticon.com/icons/png/512/50/50620.png" />
 <div id="header">MANDIzine</div>
-<div class="topnav" id="nav-bar">
-  <a href="#home" class="active">HOME</a>
-  <a href="#media">MEDIA</a>
-  <a href="#plans">PLANS</a>
-  <a href="#about_us">ABOUT US</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<div class="menu"> <!--remove class/id????-->
+  <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Media">Media</a></li>
+    <li><a href="#Plans">Plans</a></li>
+    <li><a href="#writeus">Write Us</a></li>
+  </ul>
 </div>
-
-
-
+<img id="buddy-img" src="https://as2.ftcdn.net/jpg/03/12/07/79/500_F_312077923_OEfV47juCVgCjnO2norRDPPXjyagiwcx.jpg" /><br>
+<div id="description">Your Best Buddy for Learning Mandarin</div><br> <!--use numbers in id???-->
+<iframe hidden></iframe> <!--HIDE iframe; DO NOT REMOVE or YT link will not show-->
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Bpqxowcavz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<div id="box-container">                         <!--box-container is a must-->
+<div id="box-1">Quarterly Subscription
+<ul>
+  <li>3 MANDIzines</li>
+  <li>10% discount compared to store price</li>
+</ul>
+<div id="price-1">28,90€</div>
+</div>
+<div id="box-2">Biannual Subscription
+<ul>
+  <li>6 MANDIzines</li>
+  <li>Special Buddy box of gifts</li>
+  <li>10% discount compared to store price</li>
+</ul>
+<div id="price-2">57,50€</div>
+</div>
+<div id="box-3">
+  Annual Subscription
+  <ul>
+    <li>12 MANDIzines + 2 free MANDIzines</li>
+    <li>Special Buddy box of gifts</li>
+    <li>12% discount compared to store price</li>
+  </ul>
+  <div id="price-3">113,50€</div>
+</div>
+</div>
+<br>                                               <!--other ways to create space in between???-->
+<form id="writeus" >
+  <label for="email" id="email-label">Got questions? Write us!</label>
+  <div id="submit-container">
+  <input type="email" id="email" placeholder="Enter your email" required>
+  <button type="submit" id="submit">Submit</button>
+  </div>
 
 
 </body>
